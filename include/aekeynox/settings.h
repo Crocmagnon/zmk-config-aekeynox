@@ -10,7 +10,7 @@
 // a non-QWERTY keyboard layout. This is required to set an appropriate
 // 'Symbols' layer and relevant keyboard shortcuts in the 'Nav' layer.
 
-// #define KB_LAYOUT_AZERTY
+#define KB_LAYOUT_AZERTY
 // #define KB_LAYOUT_BEPO
 // #define KB_LAYOUT_BEPOLAR
 // #define KB_LAYOUT_DVORAK
@@ -23,7 +23,7 @@
 // Uncomment one of the following lines if the host computer doen't run Windows.
 
 // #define MACOS
-// #define LINUX
+#define LINUX
 
 
 /******************************************************************************
@@ -39,7 +39,7 @@
 //    partial emulation only. QWERTY-intl hosts usually give the best results.
 
 // #define KB_EMULATION_DVORAK           // host: QWERTY
-// #define KB_EMULATION_ERGOL            // host: QWERTY-intl or AZERTY
+#define KB_EMULATION_ERGOL            // host: QWERTY-intl or AZERTY
 // #define KB_EMULATION_QWERTY_LAFAYETTE // host: QWERTY-intl or AZERTY
 
 // [Experimental]
@@ -115,7 +115,7 @@
 // Uncomment the following line to enable shift as a pinky HRM.
 // Useful for combined shortcuts, but NOT MEANT to type text!
 
-// #define HRM_SHIFT
+#define HRM_SHIFT
 
 // Uncomment the following line to swap Space and Backspace.
 // Beware: this increases the typing load of the left thumb.
