@@ -152,3 +152,7 @@ Feedback and patches are very welcome.
 Any name containing `key` and easy to search would’ve been a good fit, but here’s Nox:
 
 ![My name is Nox and I approve this project.](nox.jpg)
+
+## My customisations + ferris sweep render
+
+![Keyboard layout](./contrib/layout.svg)
