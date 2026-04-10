@@ -1,0 +1,146 @@
+# Use with https://keymap-drawer.streamlit.app
+layout: {zmk_keyboard: cradio}
+layers:
+  default:
+  - Q
+  - C
+  - O
+  - P
+  - W
+  - J
+  - M
+  - D
+  - {t: "★", s: "!"}
+  - Y
+  - {t: A, h: "shift"}
+  - {t: S, h: "gui"}
+  - {t: E, h: "ctrl"}
+  - {t: N, h: "alt"}
+  - F
+  - L
+  - {t: R, h: "alt"}
+  - {t: T, h: "ctrl"}
+  - {t: I, h: "gui"}
+  - {t: U, h: "shift"}
+  - Z
+  - X
+  - {t: "-", s: "?"}
+  - V
+  - B
+  - {t: ".", s: ":"}
+  - H
+  - G
+  - {t: ",", s: ";"}
+  - K
+  - {t: ⇥, h: shift}
+  - {t: ⌫, h: nav}
+  - {t: ␣, h: nav}
+  - {t: ↩, h: sym}
+  nav:
+  - '⎋'
+  - "⇱"
+  - "↑"
+  - "⇲"
+  - "⇞"
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - "/"
+  - "all"
+  - "←"
+  - "↓"
+  - "→"
+  - "⇟"
+  - "-"
+  - 4
+  - 5
+  - 6
+  - 0
+  - "⇧⇧"
+  - cut
+  - copy
+  - prnt scrn
+  - ctrl+R
+  - ","
+  - '1'
+  - '2'
+  - '3'
+  - "."
+  - "⇪"
+  - {t: "⌦", h: fn_media, type: held}
+  - {t: ␣, h: fn_media, type: held}
+  - {t: "", h: alt gr}
+  sym:
+  - "^"
+  - "<"
+  - ">"
+  - "$"
+  - "%"
+  - "@"
+  - "&"
+  - "*"
+  - "'"
+  - "`"
+  - "{"
+  - "("
+  - ")"
+  - "}"
+  - "="
+  - "\\"
+  - "+"
+  - "-"
+  - "/"
+  - '"'
+  - "~"
+  - "["
+  - "]"
+  - "_"
+  - "#"
+  - "|"
+  - "!"
+  - ";"
+  - ":"
+  - "?"
+  - "⇪"
+  - ␣
+  - {t: ▽, type: trans}
+  - {type: held}
+  fn_media:
+  - F1
+  - F2
+  - F3
+  - F4
+  - BT 0
+  - BT 2
+  - ⏮
+  - vol+
+  - bri+
+  - "ScrLk"
+  - F5
+  - F6
+  - F7
+  - F8
+  - BT 1
+  - BT 3
+  - ⏯
+  - mute
+  - lock
+  - prnt scrn
+  - F9
+  - F10
+  - F11
+  - F12
+  - BT CLR
+  - ''
+  - ⏭
+  - vol-
+  - bri-
+  - INS
+  - BOOT
+  - {type: held}
+  - {type: held}
+  - BOOT
+combos:
+  - {p: [31,32], k: "either", l: ["nav"], type: held}
+  - {p: [31,32], k: "both", l: ["fn_media"], type: held}
