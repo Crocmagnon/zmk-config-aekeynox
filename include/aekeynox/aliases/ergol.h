@@ -4,6 +4,8 @@
  * Action Combos
  */
 
+#define X_REFRESH &kp CMD(J)
+
 #define X_UNDO  &kp CMD(Z)
 #define X_CUT   &kp CMD(X)
 #define X_COPY  &kp CMD(W)
