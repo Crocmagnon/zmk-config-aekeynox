@@ -53,13 +53,13 @@ include:
       -DCONFIG_ZMK_STUDIO=y
 
   # Sweep + SparkFun RP2040
-  - board: sparkfun_pro_micro_rp2040//zmk
+  - board: nice_nano@2//zmk
     shield: cradio_left
     artifact-name: sweep_left
     snippet: studio-rpc-usb-uart
     cmake-args: >
       -DCONFIG_ZMK_STUDIO=y
-  - board: sparkfun_pro_micro_rp2040//zmk
+  - board: nice_nano@2//zmk
     shield: cradio_right
     artifact-name: sweep_right
     snippet: studio-rpc-usb-uart
