@@ -1,6 +1,7 @@
 // By default, the firmware will be built with HRM support for a QWERTY computer.
 // Uncomment definitions in this file to activate options.
 
+#define LINUX
 
 /******************************************************************************
  * Layout-specific actions and symbols.
