@@ -1,6 +1,8 @@
 // Selenium keymap:
 // https://github.com/OneDeadKey/selenium
 
+#include <dt-bindings/zmk/bt.h>
+
 #ifndef CI_IGNORE_USER_SETTINGS
   #include "settings.h"   // user settings
 #endif
