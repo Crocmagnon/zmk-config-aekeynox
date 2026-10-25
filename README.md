@@ -133,6 +133,18 @@ Any name containing `key` and easy to search would’ve been a good fit, but her
 [proposed 1dk adaptations]:    include/aekeynox/extra_layers#1dk-adaptations
 [supported layout emulations]: include/aekeynox/emulations#layout-emulations
 
-## My customisations + ferris sweep render
+## My customisations
 
-![Keyboard layout](./contrib/layout.svg)
+| Quacken Flex | Ferris Sweep |
+|:---:|:---:|
+| <a href="./contrib/layout-quacken.svg"><img src="./contrib/layout-quacken.svg" width="300" alt="Quacken Flex layout"></a> | <a href="./contrib/layout.svg"><img src="./contrib/layout.svg" width="300" alt="Ferris Sweep layout"></a> |
+
+The drawings are made with [keymap-drawer](https://github.com/caksoylar/keymap-drawer) from hand-written YAML files in `contrib/`.
+After editing one, regenerate its SVG locally (requires [uv](https://docs.astral.sh/uv/)):
+
+```sh
+uvx --from keymap-drawer keymap draw contrib/ergol-quacken-keymap-drawer.yaml > contrib/layout-quacken.svg
+uvx --from keymap-drawer keymap draw contrib/ergol-keymap-drawer.yaml > contrib/layout.svg
+```
+
+Both YAML files share the same 3×5 alpha block per layer: keep them in sync.
